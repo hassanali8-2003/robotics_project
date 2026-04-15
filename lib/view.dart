@@ -38,7 +38,7 @@ class DroneHUD extends StatefulWidget {
 }
 
 class _DroneHUDState extends State<DroneHUD> {
-  static const String serverIp = "172.23.200.150"; // YOUR PC IP
+  static const String serverIp = "172.23.200.180"; // YOUR PC IP
   final String nodeServerUrl = "http://$serverIp:8080/control";
   final String socketUrl = "ws://$serverIp:8080";
 
